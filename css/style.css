@@ -1,0 +1,510 @@
+body{
+	font-size: 16px;
+	font-family: 'Nunito', sans-serif;
+	color: #fff;
+	background-color: #61122f!important;
+}
+
+#header-nav{
+	background-color: #f6b319;
+	border-radius:0;
+	border: 0;
+}
+
+.container{
+	width: 100%!important;
+}
+
+#navbarSupportedContent{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#tog-button{
+	border: 1px solid #61122f;
+}
+
+#tel-button{
+	border: 2px solid #E7E7E7;
+	background-color: #f6b319!important;
+	color: #61122f;
+	font-size: 1.4em;
+	width: 70%;
+	margin: 15%;
+	padding-bottom: 15px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding-top: 15px;
+}
+
+#xs-deliver{
+	font-size: 1.2em;
+	color: #f6b319;
+	margin-bottom: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+	
+#navbarSupportedContent li{
+	margin: 30px 20px 0 0!important;
+	text-align: center;
+}
+
+#nav-list{
+	text-align: center;
+}
+
+#nav-list a:hover{
+	text-decoration: none;
+	background-color: #E7E7E7;
+}
+
+#nav-list li a{
+	font-size: 1.4em;
+	color: #61122f;
+}
+
+#phone a{
+	text-align: right;
+	padding-bottom: 0;
+	text-decoration: none;
+	color: #61122f;
+}
+
+#phone a span{
+	font-size: 1.3em;
+}
+
+#phone div{
+	color: #61122f;
+	text-align: right;
+}
+
+#menu-tile, #specials-tile, #map_tile{
+	height: 250px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	border: 2px solid #3F0C1F;
+}
+
+#menu-tile{
+	background: url(../menu-tile.jpg) no-repeat;
+	background-position: center;
+}
+
+#specials-tile{
+	background: url(../specials-tile.jpg) no-repeat;
+	background-position: center;
+}
+
+#map_tile{
+	background: url(../menu-tile.jpg) no-repeat;
+	background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #map_tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align:center;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+
+#menu-tile:hover, #specials-tile:hover, #map_tile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+
+
+.navbar-brand {
+	margin-right: 0;
+	font-size: 16px;
+	padding: 25px 10px 0;
+}
+
+.navbar-brand h1 {
+	text-transform: uppercase;
+	font-size: 1.6em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	color: #61122f;
+}
+
+.pull-left{
+	float: left;
+}
+
+.pull-right{
+	float: right;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.pad-right{
+	padding-right: 30px;
+}
+
+.navbar-toggler{
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 8px 12px 0px;
+	background-color: transparent;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.panel-footer{
+	background-color: #222;
+}
+
+.panel-footer section{
+	border-color: #222;
+	margin-top: 25px;
+	padding-top: 25px;
+	padding-bottom: 30px;
+	color: #E7E7E7;
+}
+
+#hours, #address{
+	line-height: 2;
+}
+
+#hours > span, #address > span{
+	font-size: 1.3em;
+}
+
+#address p{
+	color: #557c3e;
+	font-size: .8em;
+	line-height: 1.8;
+}
+
+#testimonials{
+	font-style: italic;
+}
+
+#testimonials p:nth-child(2) {
+	margin-top: 25px;
+}
+
+@media (min-width: 1200px){
+	
+	#logo-img{
+		background: url(../restaurant-logo_large.png) no-repeat;
+		width: 150px;
+		height: 150px;
+	}
+
+	.hidden-lg{
+		display: none!important;
+	}
+
+	.Jumbotron{
+		background: url(../jumbotron_1200.jpg) no-repeat;
+		height: 675px;
+		box-shadow: 0 0 50px #3F0C1F;
+		border-left: 2px solid black #3F0C1F;
+		margin-top: 10px;
+	}
+
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    	float: left;
+    	border: 2px solid #61122f;
+    	margin: 4%;
+    	margin-top: 25px;
+    	padding-right: 0!important;
+		padding-left: 0!important;
+  	}
+  	.col-lg-1 {
+    	width: 8.33%;
+  	}
+	.col-lg-2 {
+	    width: 16.66%;
+	}
+	.col-lg-3 {
+	    width: 25%;
+	}
+	.col-lg-4 {
+	    width: 33.33%;
+	}
+	.col-lg-5 {
+	    width: 41.66%;
+	}
+	.col-lg-6 {
+	    width: 50%;
+	}
+	.col-lg-7 {
+	    width: 58.33%;
+	}
+	.col-lg-8 {
+	    width: 66.66%;
+	}
+	.col-lg-9 {
+	    width: 74.99%;
+	}
+	.col-lg-10 {
+	    width: 83.33%;
+	}
+	.col-lg-11 {
+		width: 91.66%;
+	}
+	.col-lg-12 {
+	    width: 100%;
+	}	
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	
+	#logo-img{
+		background: url(../restaurant-logo_medium.png) no-repeat;
+		width: 100px;
+		height: 100px;
+		margin-top: 20px;
+	}
+
+	.hidden-md{
+		display: none!important;
+	}
+
+	.Jumbotron{
+		background: url(../jumbotron_992.jpg) no-repeat;
+		height: 558px;
+		box-shadow: 0 0 50px #3F0C1F;
+		border-left: 2px solid black #3F0C1F;
+		margin-top: 10px;
+	}
+
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    	float: left;
+    	border: 2px solid #61122f;
+    	margin: 4%;
+    	margin-top: 25px;
+    	padding-right: 0!important;
+		padding-left: 0!important;
+  	}
+
+	.col-md-1 {
+    	width: 8.33%;
+  	}
+  	.col-md-2 {
+  		width: 16.66%;
+  	}
+  	.col-md-3 {
+    	width: 25%;
+  	}
+  	.col-md-4 {
+    	width: 33.33%;
+  	}
+  	.col-md-5 {
+    	width: 41.66%;
+  	}
+  	.col-md-6 {
+    	width: 50%;
+  	}
+  	.col-md-7 {
+    	width: 58.33%;
+  	}
+  	.col-md-8 {
+    	width: 66.66%;
+  	}
+  	.col-md-9 {
+    	width: 74.99%;
+  	}
+  	.col-md-10 {
+    	width: 83.33%;
+  	}
+  	.col-md-11 {
+    	width: 91.66%;
+  	}
+  	.col-md-12 {
+    	width: 100%;
+  	}
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	
+	#navbarSupportedContent{
+		position: static!important;
+	}
+
+	.hidden-sm{
+		display: none!important;
+	}
+
+	.Jumbotron{
+		box-shadow: 0 0 50px #3F0C1F;
+		border-left: 2px solid black #3F0C1F;
+		margin-top: 10px;
+	}
+
+	#navbarSupportedContent li{
+		margin: 0 10px 0 0;
+	}
+
+	#nav-list li a{
+		font-size: 1.3em;
+		color: #61122f;
+	}
+
+	#nav-list a:hover{
+		text-decoration: none;
+		background-color: #f6b319;
+	}
+
+	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    	float: left;
+    	border: 2px solid #61122f;
+    	margin: 4%;
+    	margin-top: 15px;
+    	margin-bottom:15px;
+    	padding-right: 0!important;
+		padding-left: 0!important;
+  	}
+
+	.col-sm-1 {
+    	width: 8.33%;
+  	}
+  	.col-sm-2 {
+  		width: 16.66%;
+  	}
+  	.col-sm-3 {
+    	width: 25%;
+  	}
+  	.col-sm-4 {
+    	width: 33.33%;
+  	}
+  	.col-sm-5 {
+    	width: 41.66%;
+  	}
+  	.col-sm-6 {
+    	width: 50%;
+  	}
+  	.col-sm-7 {
+    	width: 58.33%;
+  	}
+  	.col-sm-8 {
+    	width: 66.66%;
+  	}
+  	.col-sm-9 {
+    	width: 74.99%;
+  	}
+  	.col-sm-10 {
+    	width: 83.33%;
+  	}
+  	.col-sm-11 {
+    	width: 91.66%;
+  	}
+  	.col-sm-12 {
+    	width: 100%;
+  	}
+
+}
+
+@media(max-width: 767px){
+	
+	#navbarSupportedContent{
+		position: static;
+	}
+
+	.hidden-xs{
+		display: none;
+	}
+
+	.Jumbotron{
+		background: url(../jumbotron_768.jpg) no-repeat;
+		box-shadow: 0 0 50px #3F0C1F;
+		border-left: 2px solid black #3F0C1F;
+		margin-top: 10px;
+	}
+
+	#navbarSupportedContent li{
+		margin: 0 10px 0 0;
+	}
+
+	#nav-list li a{
+		font-size: 1.1em;
+		color: #61122f;
+	}
+	#nav-list a:hover{
+		text-decoration: none;
+		background-color: #f6b319; 
+	}
+
+	#menu-tile, #specials-tile{
+		width:360px;
+		margin: 0 auto 15px;
+	}
+
+	.navbar-brand h1{
+		font-size: 1.3em;
+	}
+
+	.panel-footer{
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+	.panel-footer section:nth-child(3) {
+		margin-bottom: 0;
+	}
+	.panel-footer section hr{
+		width: 50%;
+	}
+
+	.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    	float: left;
+    	border: 2px solid #61122f;
+    	margin: 4%;
+    	margin-top: 25px;
+    	padding-right: 0!important;
+		padding-left: 0!important;
+  	}
+
+	.col-xs-1 {
+    	width: 8.33%;
+  	}
+  	.col-xs-2 {
+  		width: 16.66%;
+  	}
+  	.col-xs-3 {
+    	width: 25%;
+  	}
+  	.col-xs-4 {
+    	width: 33.33%;
+  	}
+  	.col-xs-5 {
+    	width: 41.66%;
+  	}
+  	.col-xs-6 {
+    	width: 50%;
+  	}
+  	.col-xs-7 {
+    	width: 58.33%;
+  	}
+  	.col-xs-8 {
+    	width: 66.66%;
+  	}
+  	.col-xs-9 {
+    	width: 74.99%;
+  	}
+  	.col-xs-10 {
+    	width: 83.33%;
+  	}
+  	.col-xs-11 {
+    	width: 91.66%;
+  	}
+  	.col-xs-12 {
+    	width: 100%;
+  	}
+}
